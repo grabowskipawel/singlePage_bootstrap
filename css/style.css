@@ -1,0 +1,185 @@
+body{
+   font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    min-width: 320px;
+ 
+
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+.bg-1{
+    background-color: #43745e;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 2px 5px 25px black;
+    
+}
+.bg-2 {
+    background-color: #2b4b45; /* Dark Blue */
+    color: #ffffff;
+     box-shadow: inset 2px 5px 25px black;
+}
+.bg-3{
+    background-color: #d1d0c0; /* Dark Blue */
+    color: #000;
+     box-shadow: inset 2px 5px 25px black;
+}
+
+.bg-4 {
+    background-color: #eaede9; /* White */
+    color: #555555;
+     box-shadow: inset 2px 5px 25px black;
+   
+}
+.bg-5{
+    background-color: #254b45;
+    color: #ffffff;
+    max-height: 150px;
+    margin: 0px;
+     box-shadow: inset 2px 5px 25px black;
+   
+    
+}
+.glyph{
+    font-size: 45px;
+}
+.info{
+    font-size: 25px;
+}
+.container-fluid{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+firstimg{
+    display:inline
+}
+.navbar{
+   font-family: 'Roboto' sans-serif;
+    
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-left: px;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    box-shadow: 1px 1px 10px  black;
+    min-width: 220px;
+}
+
+.navbar-nav li a:hover{
+    color: #1abc9c !important;
+}
+
+#name{
+    font-size: px;
+    float: left;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  /* Dimensions */
+  width: 100%;
+  height: .15em;
+
+  /* Reset the apperance */  
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* For Firefox/IE10+ */
+  background-color: transparent;
+
+  /* For IE10+, color of the progress bar */
+  color: red;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+.flat::-webkit-progress-value {
+  background-color: red;
+}
+
+.flat::-moz-progress-bar {
+  background-color: red;
+}
+
+.single::-webkit-progress-value {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(left, transparent, red);
+}
+
+.single::-moz-progress-bar {
+  background-color: transparent;
+  background-image: -moz-linear-gradient(left, transparent, red);
+}
+
+.multiple::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(-45deg, 
+                               transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                               rgba(0,0, 0, .1) 66%, transparent 66%),
+                      -webkit-linear-gradient(left, green, red);
+}
+
+.multiple::-moz-progress-bar {
+  background-image: -moz-linear-gradient(-45deg, 
+                               transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                               rgba(0,0, 0, .1) 66%, transparent 66%),
+                      -moz-linear-gradient(left, green, red);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: .5em;
+  display: block;
+}
+
+.progress-bar {
+  background-color: red;
+  width: 50%;
+  display: block;
+  height: inherit;
+}
+.header{
+    margin-bottom: 15px;
+}
+#hamburger{
+    float: left;
+}
+.menu{
+    float: right;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.frog{
+    width=250px;
+    height=250p;
+}
